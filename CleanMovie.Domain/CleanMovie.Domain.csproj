@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Eng. Amr</Authors>
+    <Company>Solid</Company>
+	  <IsPackable>true</IsPackable>
+	  <PackageId>CleanMovie.Domain</PackageId>
+	  <Version>1.1.0</Version>
+	  <PackageIcon>male.png</PackageIcon>
+	  <PackageIconUrl />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\amr.khamis\Desktop\male.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

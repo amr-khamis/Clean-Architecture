@@ -1,0 +1,187 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Infrastructure\\CleanMovie.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Application\\CleanMovie.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Application\\CleanMovie.Application.csproj",
+        "projectName": "CleanMovie.Application",
+        "projectPath": "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Application\\CleanMovie.Application.csproj",
+        "packagesPath": "C:\\Users\\amr.khamis\\.nuget\\packages\\",
+        "outputPath": "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\amr.khamis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Domain\\CleanMovie.Domain.csproj": {
+                "projectPath": "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Domain\\CleanMovie.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Domain\\CleanMovie.Domain.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Domain\\CleanMovie.Domain.csproj",
+        "projectName": "CleanMovie.Domain",
+        "projectPath": "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Domain\\CleanMovie.Domain.csproj",
+        "packagesPath": "C:\\Users\\amr.khamis\\.nuget\\packages\\",
+        "outputPath": "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\amr.khamis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Infrastructure\\CleanMovie.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Infrastructure\\CleanMovie.Infrastructure.csproj",
+        "projectName": "CleanMovie.Infrastructure",
+        "projectPath": "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Infrastructure\\CleanMovie.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\amr.khamis\\.nuget\\packages\\",
+        "outputPath": "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\amr.khamis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Application\\CleanMovie.Application.csproj": {
+                "projectPath": "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Application\\CleanMovie.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

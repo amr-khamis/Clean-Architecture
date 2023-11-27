@@ -1,0 +1,53 @@
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+*.user
+*.suo
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.suo
+*.suo.lock
+*.userosscache
+*.suo.lock
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio for Mac
+.idea/
+.vscode/
+__pycache__/
+*.suo
+*.user
+*.userosscache
+*.suo.lock
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+*.suo
+*.user
+*.userosscache
+*.suo.lock
