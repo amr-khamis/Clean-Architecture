@@ -27,7 +27,7 @@ spec:
   replicas: 7
   selector:
     matchLabels:
-      app: clean-architecture-app
+      app: clean-architecture-app 
   template:
     metadata:
       labels:

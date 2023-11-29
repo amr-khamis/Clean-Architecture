@@ -51,3 +51,5 @@ __pycache__/
 *.user
 *.userosscache
 *.suo.lock
+.vs/CleanArchitecture/
+*.v2
