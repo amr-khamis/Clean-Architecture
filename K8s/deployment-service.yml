@@ -22,7 +22,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: clean-architecture-deployment
+  name: clean-architecture-deployment 
 spec:
   replicas: 7
   selector:
