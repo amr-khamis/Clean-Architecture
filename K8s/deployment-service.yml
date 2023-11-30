@@ -1,0 +1,52 @@
+
+
+# apiVersion: autoscaling/v2beta2
+# kind: HorizontalPodAutoscaler
+# metadata:
+#   name: clean-architecture-deployment
+# spec:
+#   scaleTargetRef:
+#     apiVersion: apps/v1
+#     kind: Deployment
+#     name: clean-architecture-deployment
+#   minReplicas: 1
+#   maxReplicas: 5
+#   metrics:
+#   - type: Resource
+#     resource:
+#       name: memory
+#       target:
+#         type: Utilization
+#         averageUtilization: 70 
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: clean-architecture-deployment
+spec:
+  replicas: 7
+  selector:
+    matchLabels:
+      app: clean-architecture-app
+  template:
+    metadata:
+      labels:
+        app: clean-architecture-app
+    spec:
+      containers:
+        - name: clean-architecture-container
+          image: amrkhamisengineermanager/clean-architecture-image  
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: clean-architecture-service
+spec:
+  selector:
+    app: clean-architecture-app
+  ports:
+    - protocol: 'TCP'
+      port: 32760 
+      targetPort: 32760 
+  type: NodePort
