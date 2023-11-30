@@ -29,7 +29,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Domain\\CleanMovie.Domain.csproj": {
                 "projectPath": "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Domain\\CleanMovie.Domain.csproj"
@@ -45,7 +44,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -90,7 +88,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -102,7 +99,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
