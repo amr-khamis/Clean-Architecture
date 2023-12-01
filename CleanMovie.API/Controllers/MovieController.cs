@@ -1,6 +1,4 @@
-﻿//using CleanMovie.Application.UseCases.BL.Interface;
-//using CleanMovie.Domain.Model;
-using CleanMovie.Application.UseCases.BL.Interface;
+﻿using CleanMovie.Application.UseCases.BL.Interface;
 using CleanMovie.Domain.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
