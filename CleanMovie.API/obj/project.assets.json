@@ -3,63 +3,83 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "CleanMovie.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "type": "package",
         "dependencies": {
           "CleanMovie.Domain": "1.1.0"
         },
         "compile": {
-          "bin/placeholder/CleanMovie.Application.dll": {}
+          "lib/netcoreapp3.1/CleanMovie.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CleanMovie.Application.dll": {}
+          "lib/netcoreapp3.1/CleanMovie.Application.dll": {}
         }
       },
       "CleanMovie.Domain/1.1.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "type": "package",
         "compile": {
-          "bin/placeholder/CleanMovie.Domain.dll": {}
+          "lib/netcoreapp3.1/CleanMovie.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CleanMovie.Domain.dll": {}
+          "lib/netcoreapp3.1/CleanMovie.Domain.dll": {}
         }
       },
       "CleanMovie.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "type": "package",
         "dependencies": {
           "CleanMovie.Application": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/CleanMovie.Infrastructure.dll": {}
+          "lib/netcoreapp3.1/CleanMovie.Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CleanMovie.Infrastructure.dll": {}
+          "lib/netcoreapp3.1/CleanMovie.Infrastructure.dll": {}
         }
       }
     }
   },
   "libraries": {
     "CleanMovie.Application/1.0.0": {
-      "type": "project",
-      "path": "../CleanMovie.Application/CleanMovie.Application.csproj",
-      "msbuildProject": "../CleanMovie.Application/CleanMovie.Application.csproj"
+      "sha512": "Mv0RBMlinOBl4bhhjp0Y9PNdFxiVS5qeRkAYPjHM8vlEToJYMPJqdIW0gdPKwHK6K89ZCBNbKNHIu4jlayNpxw==",
+      "type": "package",
+      "path": "cleanmovie.application/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cleanmovie.application.1.0.0.nupkg.sha512",
+        "cleanmovie.application.nuspec",
+        "lib/netcoreapp3.1/CleanMovie.Application.dll"
+      ]
     },
     "CleanMovie.Domain/1.1.0": {
-      "type": "project",
-      "path": "../CleanMovie.Domain/CleanMovie.Domain.csproj",
-      "msbuildProject": "../CleanMovie.Domain/CleanMovie.Domain.csproj"
+      "sha512": "Jd1hx29uUFDLaUv19zk88zjWaCeHYNrgiPKrJ3X15XoYR6MfG3qZjKDpUGNhkQtbnuqGy2kXFLSHDsmNW9wjUw==",
+      "type": "package",
+      "path": "cleanmovie.domain/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cleanmovie.domain.1.1.0.nupkg.sha512",
+        "cleanmovie.domain.nuspec",
+        "lib/netcoreapp3.1/CleanMovie.Domain.dll",
+        "male.png"
+      ]
     },
     "CleanMovie.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../CleanMovie.Infrastructure/CleanMovie.Infrastructure.csproj",
-      "msbuildProject": "../CleanMovie.Infrastructure/CleanMovie.Infrastructure.csproj"
+      "sha512": "5GXKvnrLvJBcTZAyfwAY57Hj214NOHTiSF8mdse1OLtqlBQQVoSrLjKW+ogVQe9KqzfqhSJ/o13kkg9KLVqFsg==",
+      "type": "package",
+      "path": "cleanmovie.infrastructure/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cleanmovie.infrastructure.1.0.0.nupkg.sha512",
+        "cleanmovie.infrastructure.nuspec",
+        "lib/netcoreapp3.1/CleanMovie.Infrastructure.dll"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "CleanMovie.Application >= 1.0.0",
+      "CleanMovie.Domain >= 1.1.0",
       "CleanMovie.Infrastructure >= 1.0.0"
     ]
   },
@@ -93,14 +113,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Application\\CleanMovie.Application.csproj": {
-              "projectPath": "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Application\\CleanMovie.Application.csproj"
-            },
-            "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Infrastructure\\CleanMovie.Infrastructure.csproj": {
-              "projectPath": "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Infrastructure\\CleanMovie.Infrastructure.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -112,6 +125,20 @@
     "frameworks": {
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "CleanMovie.Application": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "CleanMovie.Domain": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
+          "CleanMovie.Infrastructure": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

@@ -49,10 +49,10 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.2.0",
     "restore": {
       "projectUniqueName": "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Infrastructure\\CleanMovie.Infrastructure.csproj",
-      "projectName": "CleanMovie.Infrastructure",
+      "projectName": "CleanMovie.Infrastructure3",
       "projectPath": "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Infrastructure\\CleanMovie.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\amr.khamis\\.nuget\\packages\\",
       "outputPath": "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Infrastructure\\obj\\",

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3xD5DpTlOZvJ8oO6fgC6L8nvzMLE2Mb4knwqOagkWjnx5Gn1BmrklB1VyGHOsmPmrt32LBLmE/tWHj9YP8qfOQ==",
+  "dgSpecHash": "9iI0Yvq+hUNn+OnSm8K6HoPaHGjJW4OPIeEnRKzyW7mHUKIM+qf5p2KtecugwGMCN258xeCOazCbKjuCdU8gUQ==",
   "success": true,
   "projectFilePath": "F:\\Work\\CleanArchitecture\\CleanArchitecture\\CleanMovie.Application\\CleanMovie.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\amr.khamis\\.nuget\\packages\\cleanmovie.domain\\1.1.0\\cleanmovie.domain.1.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

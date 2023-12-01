@@ -1,12 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CleanMovie.Application\CleanMovie.Application.csproj" />
-    <ProjectReference Include="..\CleanMovie.Infrastructure\CleanMovie.Infrastructure.csproj" />
+    <PackageReference Include="CleanMovie.Application" Version="1.0.0" />
+    <PackageReference Include="CleanMovie.Domain" Version="1.1.0" />
+    <PackageReference Include="CleanMovie.Infrastructure" Version="1.0.0" />
   </ItemGroup>
 
 
